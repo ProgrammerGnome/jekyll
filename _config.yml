@@ -1,0 +1,21 @@
+title: Mark's computer science blog
+description: One-page technical blog & notes
+
+# === GitHub Pages ===
+url: "https://programmergnome.github.io"
+baseurl: "/jekyll"
+
+# === Local development (uncomment if needed) ===
+# url: "http://localhost:4000"
+# baseurl: "/jekyll"
+
+markdown: kramdown
+theme: null
+future: true
+
+exclude:
+  - README.md
+  - vendor
+  - Gemfile
+  - Gemfile.lock
+  - node_modules

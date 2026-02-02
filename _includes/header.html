@@ -1,0 +1,22 @@
+<header class="site-header">
+  <div class="profile-section">
+    <img src="{{ '/assets/images/profile_img.png' | relative_url }}" class="profile-image">
+
+    <div class="name-bio">
+      <h1 class="site-title">My computer science blog</h1>
+      <p class="site-bio">Learning log: documenting thoughts and ideas.</p>
+      <i class="fa-regular fa-envelope"></i>
+      Feedback: <a class="email-link" href="mailto:mark.kiraly.hu@gmail.com">mark.kiraly.hu@gmail.com</a>
+    </div>
+
+    <div class="main-portfolio-icon-container">
+      <center>
+        <a href="https://kiralymark.netlify.app/" target="_blank">
+          <img src="{{ '/assets/images/favicon.ico' | relative_url }}" class="main-portfolio-icon">
+          <center>Find me on the web</center>
+      </center>
+      </a>
+    </div>
+  </div>
+  {% include nav.html %}
+</header>

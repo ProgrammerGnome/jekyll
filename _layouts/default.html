@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  {% include head.html %}
+  <button id="scrollToTop" aria-label="Scroll to top">
+    <svg
+      viewBox="0 0 24 24"
+      width="40"
+      height="40"
+      aria-hidden="true"
+    >
+      <path
+        d="M6 14l6-6 6 6"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2.5"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      />
+    </svg>
+  </button>
+  <body>
+    <div id="particles-js"></div>
+
+    <div class="relative z-10 min-h-screen">
+      {% include header.html %}
+      <main class="site-content">
+        {{ content }}
+      </main>
+      {% include footer.html %}
+    </div>
+
+    <script src="{{ '/assets/js/particles.min.js' | relative_url }}"></script>
+    <script src="{{ '/assets/js/script.js' | relative_url }}"></script>
+    <script>
+      window.SEARCH_INDEX_URL = "{{ '/search.json' | relative_url }}";
+    </script>
+  </body>
+</html>
