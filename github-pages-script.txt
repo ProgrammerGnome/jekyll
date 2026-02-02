@@ -1,0 +1,8 @@
+git checkout main
+bundle exec jekyll build
+
+git checkout pages-static
+git rm -rf .
+cp -r _site/* .
+git commit -m "Update static site"
+git push
