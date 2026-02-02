@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="feed.xsl"?>
+<rss version="2.0">
+  <channel>
+    <title>Mark's computer science blog</title>
+    <link>http://localhost:4000/jekyll/</link>
+    <description>One-page technical blog &amp; notes</description>
+    <language>hu</language>
+    <lastBuildDate>Mon, 02 Feb 2026 22:29:38 +0100</lastBuildDate>
+
+    
+    <item>
+      <title>This is a template post</title>
+      <link>http://localhost:4000/jekyll/category1/category2/2026/02/02/template-post.html</link>
+      <guid>http://localhost:4000/jekyll/category1/category2/2026/02/02/template-post.html</guid>
+      <pubDate>Mon, 02 Feb 2026 21:00:00 +0100</pubDate>
+      <description>
+        <![CDATA[
+          A brief summary of the post that will appear on the index page.
+        ]]>
+      </description>
+    </item>
+    
+  </channel>
+</rss>
