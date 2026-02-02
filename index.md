@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 <section id="blog" class="content-section">
 
   <div class="blog-search">
